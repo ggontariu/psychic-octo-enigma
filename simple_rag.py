@@ -50,7 +50,6 @@ Answer:"""
     
     response = requests.post(url, json=data)
     result = response.json()
-    print (result)
     return result['response']
 
 # Test it!
